@@ -1,1 +1,26 @@
+@startuml
+
+class User {
+  id
+  name
+  email
+}
+
+class EnergyConsumption {
+  id
+  value
+  date
+}
+
+class Alert {
+  id
+  message
+  threshold
+}
+
+User --> EnergyConsumption
+EnergyConsumption --> Alert
+
+@enduml
+
 

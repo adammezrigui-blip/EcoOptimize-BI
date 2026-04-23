@@ -1,0 +1,46 @@
+@startuml
+class Utilisateur {
+  - int id
+  - String nom
+  - String email
+  - String motDePasse
+  - String role
+  + Utilisateur()
+  + Utilisateur(id, nom, email, mdp, role)
+  + boolean seConnecter(email, mdp)
+  + void afficherInfos()
+  + String getRole()
+  + getters/setters
+}
+
+class Admin {
+  + void gererUtilisateurs()
+  + void supprimerCompte(int id)
+}
+
+class Manager {
+  + void validerReleves()
+  + void configurerSeuils()
+}
+
+class Consultant {
+  + void exporterRapport()
+  + void consulterBenchmarks()
+}
+
+class TableauBord {
+  - double consommationTotale
+  - double empreinteCarbone
+  - int nbAlertes
+  + TableauBord()
+  + void afficherKPIs()
+  + void mettreAJourDonnees()
+  + void calculerTendance()
+}
+
+Utilisateur <|-- Admin
+Utilisateur <|-- Manager
+Utilisateur <|-- Consultant
+
+TableauBord --> Utilisateur : "affiche les données de"
+@enduml

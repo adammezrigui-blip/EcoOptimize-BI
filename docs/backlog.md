@@ -10,7 +10,7 @@ En tant qu'utilisateur, je veux me connecter avec mon email et mot de passe afin
 - Email valide obligatoire
 - Mot de passe ≥ 6 caractères
 - Message erreur si login incorrect
-- Redirection حسب role
+- Redirection selon role
 
 ---
 

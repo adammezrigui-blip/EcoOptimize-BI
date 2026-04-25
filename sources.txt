@@ -1,0 +1,6 @@
+C:\Users\GIGABYTE\EcoOptimize-BI\src\com\ecooptimize\models\Admin.java
+C:\Users\GIGABYTE\EcoOptimize-BI\src\com\ecooptimize\models\Consultant.java
+C:\Users\GIGABYTE\EcoOptimize-BI\src\com\ecooptimize\models\Main.java
+C:\Users\GIGABYTE\EcoOptimize-BI\src\com\ecooptimize\models\Manager.java
+C:\Users\GIGABYTE\EcoOptimize-BI\src\com\ecooptimize\models\TableauBord.java
+C:\Users\GIGABYTE\EcoOptimize-BI\src\com\ecooptimize\models\Utilisateur.java
